@@ -15,25 +15,25 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/airbnb-blocks/"
     },
     {
-        title: "Wayne Barnett",
+        title: "Catalogo Ecommerce",
+        thumb: "https://github.com/michelecanini/catalogoecommerce/raw/main/img/e-shop.png",
+        github: "https://github.com/michelecanini/catalogoecommerce",
+        demo: "https://michelecanini.github.io/catalogoecommerce/"
+    },
+    {
+        title: "project 04",
         thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
         github: "Founder & CEO",
         demo: "wayne-barnett-founder-ceo.jpg"
     },
     {
-        title: "Test",
+        title: "project 05",
         thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
         github: "Founder & CEO",
         demo: "wayne-barnett-founder-ceo.jpg"
     },
     {
-        title: "Test",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "Founder & CEO",
-        demo: "wayne-barnett-founder-ceo.jpg"
-    },
-    {
-        title: "Test",
+        title: "project 06",
         thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
         github: "Founder & CEO",
         demo: "wayne-barnett-founder-ceo.jpg"
@@ -57,7 +57,7 @@ for (let i = 0; i < dataProjects.length; i++){
     <div class="card col-12 col-md-4 m-3 text-white border border-primary" style="width: 25rem; background-color: #2d3748; max-height: 320px;" >
         <div class="card-body">
         <img src="${project.thumb}" class="card-img-top mt-3">
-            <h5 class="card-title">${project.title}</h5>
+            <h5 class="card-title mt-3">${project.title}</h5>
             <a href="${project.github}" target="_blank" class="btn btn-primary">GitHub</a>
             <a href="${project.demo}" target="_blank" class="btn btn-light">Demo</a>
         </div>
