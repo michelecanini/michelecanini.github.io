@@ -9,9 +9,9 @@ GENERALS SETTING
 }
 
 #octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+  width:55px;
+  height: 55px;
+
 }
 
 p {
@@ -34,9 +34,12 @@ main{
 }
 
 /*
-HEADER SETTING (ADMIN.BLADE.PHP CHIAMATO NAV)
+HEADER/NAV SETTING
 */
 
+.navbar-brand img{
+  width: 7%;
+}
 
 .navbar-sticky-top
 {
