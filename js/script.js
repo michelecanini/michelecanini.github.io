@@ -47,7 +47,7 @@ const cards = document.getElementById("cards");
 // CICLO FOR PER L'ARRAY DEI PROGETTI
 for (let i = 0; i < dataProjects.length; i++){
 
-    //VARIABILE PER SALVARE IL SINGOLO PROGETTO INTERNA AL CICLO
+    // VARIABILE PER SALVARE IL SINGOLO PROGETTO INTERNA AL CICLO
     let project = dataProjects[i];
 
     // SINGOLA CARD DEL DOM CON LE INFORMAZIONI DEL SINGOLO PROGETTO

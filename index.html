@@ -10,7 +10,8 @@
         <link rel="dns-prefetch" href="//fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
         <!-- bootstrap -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- css -->
         <LINK href="./css/styles.css" rel="stylesheet" type="text/css">
     </head>
@@ -23,7 +24,7 @@
                     <a class="navbar-brand d-flex align-items-center" href="https://michelecanini.github.io/">
                         <div>
                             <!--logo-->
-                            <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" alt="michelecanini" class="logo"><span>michelecanini</span>
+                            <img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" alt="michelecanini" class="logo"><span>michelecanini&lt;/&gt;</span>
                             <!--mobile-logo-->
                             <img src="./img/mobile-logo.png" alt="" class="mobile_logo">
                         </div>
@@ -43,8 +44,6 @@
 
                         <!-- Right Side Of Navbar -->
                         <ul class="navbar-nav ml-auto">
-                            <!-- Authentication Links -->
-                            
                             <!--<li class="nav-item"></li> -->
                         </ul>
                     </div>
@@ -54,19 +53,23 @@
               <!-- section jumbotron -->
             <section class="jumbotron container-xl px-3 px-md-4 px-lg-5 mt-2 py-5 ">
                 <div class="row">
-                    <div class="col-12 col-sm-3">
+                    <div class="col-sm-3">
                         <div>
-                            <img style="height:auto;
+                            <img style="height:auto; width: 100%;
                             border-radius: 20px;" alt="" src="https://avatars.githubusercontent.com/u/127045851?v=4" width="260" height="260" class="avatar avatar-user width-full border color-bg-default border border-primary">
                         </div>   
+                        <div class="player justify-content-end mt-5">
+                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Zjli1P13J5mmSCD5iKAXK?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        </div>
                     </div>
                     
-                    <div class="col-12 col-sm-9">
+                    
+                    <div class="col-sm-9">
                         <h2 class="display-5 text-white fw-bold">
                             Welcome to Portfolio by Michele Canini
                         </h2>
                         <div>
-                            <div class="Box-body p-4 mt-3 border border-primary" style="
+                            <div class="Box-body p-4 mt-5 border border-primary" style="
                             border-radius: 20px;" >
                                 
                                 <article class="markdown-body entry-content container-lg f5" itemprop="text"><h3 dir="auto" class="text-white"><a id="user-content--hi-im-michelecanini-j-full-stack-web-dev" class="anchor" aria-hidden="true" href="#-hi-im-michelecanini-j-full-stack-web-dev"></a><g-emoji class="g-emoji" alias="wave" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png">👋</g-emoji> Hi, I’m <a href="https://github.com/michelecanini">@michelecanini</a> J. Full-Stack Web Dev.</h3>
@@ -78,15 +81,8 @@
                             </article>
                             </div>
                         </div>   
-                    </div>
-        
-                    <div class="row mt-3"> 
-                        <div class="col-12 col-sm-8">   
-                            <h5 class="col-sm-11 fs-4 text-white">This Project: "Portfolio Site" is the static version of the release built with Bootstrap 5 and Laravel 9.2 including Laravel breeze and blade. Contains all code projects executed with the Boolean school, and here you find my favorite playlist, that I listened to during this adventure -></h5>
-                        </div> 
-        
-                        <div class="col-12 col-md-4 justify-content-end">
-                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Zjli1P13J5mmSCD5iKAXK?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <div class="mt-3">   
+                            <h5 class="col-sm-12 mt-5 fs-4 text-white">This Project: "Portfolio Site" is the static version of the release built with Bootstrap 5 and Laravel 9.2 including Laravel breeze and blade. Contains all code projects executed with the Boolean school, and here you find my favorite playlist, that I listened to during this adventure.</h5>
                         </div>
                     </div>
                 </div>
@@ -95,7 +91,12 @@
                 <!--start main-->
             <main class="container">
                 <div class="row justify-content-center">
-                    <div id="cards"></div>
+                    <div id="cards" class="justify-content-center"></div>
+                    <div class="col-sm-2 justify-content-center text-center mt-5 mb-5">
+                        <a href="#" class="btn btn-success">Carica altri Progetti</a>
+                    </div>
+                    
+                    <!-- <div class="loader"></div> -->
                 </div>
             </main>
             <!--end main-->
