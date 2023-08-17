@@ -1,64 +1,9 @@
 "use strict";
 
-// ARRAY DEI PROGETTI
-let dataProjects = [
-    {
-        title: "Scooter Lim",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "https://github.com/michelecanini/scooterlimproject",
-        demo: "https://michelecanini.github.io/scooterlimproject/"
-    },
-    {
-        title: "Airbnb Blocks",
-        thumb: "https://github.com/michelecanini/airbnb-blocks/raw/main/img/airbnb-blocks.png",
-        github: "https://github.com/michelecanini/airbnb-blocks",
-        demo: "https://michelecanini.github.io/airbnb-blocks/"
-    },
-    {
-        title: "Catalogo Ecommerce",
-        thumb: "https://github.com/michelecanini/catalogoecommerce/raw/main/img/e-shop.png",
-        github: "https://github.com/michelecanini/catalogoecommerce",
-        demo: "https://michelecanini.github.io/catalogoecommerce/"
-    },
-    {
-        title: "Album Fotografico",
-        thumb: "https://github.com/michelecanini/albumfotografico/raw/main/albums.png",
-        github: "https://github.com/michelecanini/albumfotografico",
-        demo: "https://michelecanini.github.io/albumfotografico/"
-    },
-    {
-        title: "Youtube Channel",
-        thumb: "https://github.com/michelecanini/youtube-channel/raw/main/img/youtube_channel.png",
-        github: "https://github.com/michelecanini/youtube-channel",
-        demo: "https://michelecanini.github.io/youtube-channel/"
-    },
-    {
-        title: "project 06",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "Founder & CEO",
-        demo: "wayne-barnett-founder-ceo.jpg"
-    },
-    {
-        title: "project 07",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "Founder & CEO",
-        demo: "wayne-barnett-founder-ceo.jpg"
-    },
-    {
-        title: "project 08",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "Founder & CEO",
-        demo: "wayne-barnett-founder-ceo.jpg"
-    },
-    {
-        title: "project 09",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "Founder & CEO",
-        demo: "wayne-barnett-founder-ceo.jpg"
-    },
-   
-]
+// IMPORTAZIONE DELL'ARRAY
+import { dataProjects } from './dataProjects.js';
 
+// FUNZIONE DI CREAZIONE CARD
 function createCard(project) {
     let card = `
         <div class="card col-12 col-md-4 m-4 text-white border border-primary" style="width: 24rem; background-color: #2d3748; max-height: 320px;" >
@@ -98,10 +43,11 @@ let loadMoreButton = document.createElement("button");
 loadMoreButton.innerHTML = "Carica altri progetti";
 loadMoreButton.classList.add("btn", "btn-success");
 loadMoreButton.addEventListener("click", function() {
+
     // CICLO FOR PER GLI ULTIMI 3 PROGETTI
     for (let i = 6; i < dataProjects.length; i++) {
-        // ... il tuo codice per visualizzare gli ultimi 3 progetti qui
-        // VARIABILE PER SALVARE IL SINGOLO PROGETTO INTERNA AL CICLO
+
+    // VARIABILE PER SALVARE IL SINGOLO PROGETTO INTERNA AL CICLO
     let project = dataProjects[i];
     let card = createCard(project);
 
