@@ -27,10 +27,10 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/albumfotografico/"
     },
     {
-        title: "project 05",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "Founder & CEO",
-        demo: "wayne-barnett-founder-ceo.jpg"
+        title: "Youtube Channel",
+        thumb: "https://github.com/michelecanini/youtube-channel/raw/main/img/youtube_channel.png",
+        github: "https://github.com/michelecanini/youtube-channel",
+        demo: "https://michelecanini.github.io/youtube-channel/"
     },
     {
         title: "project 06",

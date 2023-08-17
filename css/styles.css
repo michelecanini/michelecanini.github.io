@@ -62,15 +62,15 @@ HEADER/NAV SETTING
 
 /*
 SEARCH BAR
-*/
+
 form{
   position: relative;
+}
 
-  i{
-      position: absolute;
-      top: 25%;
-      left: 5px;
-  }
+form i{
+  position: absolute;
+  top: 25%;
+  left: 5px;
 }
 
 input{
@@ -85,31 +85,7 @@ input{
   margin-right: 12px;
 }
 
-/*
-TOPBAR MAIN SETTING
 */
-.topbar{
-  height: 130px;
-  width: calc(100vw - 180px);
-  background-color: #0d6efd;
-  margin-top: 60px;
-}
-
-.h_130{
-  height: 130px;
-}
-
-.list-group-item h4{
-  margin-bottom: 0;
-}
-
-.mr_10{
-  margin-right: 10px;
-}
-
-.cb_blaz{
-  background-color: #1352b1;
-}
 
 /*
 TABELLA INDEX
@@ -119,10 +95,9 @@ TABELLA INDEX
   margin-top: 90px;
 }
 
-
 /*
 LOADER
-*/
+
 .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
@@ -146,6 +121,8 @@ LOADER
     100% { transform: rotate(360deg); }
   }
 
+*/
+
 /*
 MOBILE
 */
@@ -154,4 +131,3 @@ MOBILE
         padding: 50px;
     }
 }
-
