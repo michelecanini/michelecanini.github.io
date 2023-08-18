@@ -31,10 +31,10 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/youtube-channel/"
     },
     {
-        title: "project 06",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "Founder & CEO",
-        demo: "wayne-barnett-founder-ceo.jpg"
+        title: "Toboolist",
+        thumb: "https://github.com/michelecanini/html-css-toboolist/raw/master/img/toboolist.png",
+        github: "https://github.com/michelecanini/html-css-toboolist",
+        demo: "https://michelecanini.github.io/html-css-toboolist/"
     },
     {
         title: "project 07",
@@ -50,6 +50,24 @@ let dataProjects = [
     },
     {
         title: "project 09",
+        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
+        github: "Founder & CEO",
+        demo: "wayne-barnett-founder-ceo.jpg"
+    },
+    {
+        title: "project 10",
+        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
+        github: "Founder & CEO",
+        demo: "wayne-barnett-founder-ceo.jpg"
+    },
+    {
+        title: "project 11",
+        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
+        github: "Founder & CEO",
+        demo: "wayne-barnett-founder-ceo.jpg"
+    },
+    {
+        title: "project 12",
         thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
         github: "Founder & CEO",
         demo: "wayne-barnett-founder-ceo.jpg"

@@ -38,13 +38,13 @@ for (let i = 0; i < 6; i++){
     cards.innerHTML += card;
 }
 
-// AGGIUNGI UN PULSANTE PER CARICARE GLI ULTIMI 3 PROGETTI
+// AGGIUNGI UN PULSANTE PER CARICARE GLI ULTIMI 6 PROGETTI
 let loadMoreButton = document.createElement("button");
 loadMoreButton.innerHTML = "Carica altri progetti";
 loadMoreButton.classList.add("btn", "btn-success");
 loadMoreButton.addEventListener("click", function() {
 
-    // CICLO FOR PER GLI ULTIMI 3 PROGETTI
+    // CICLO FOR PER GLI ULTIMI 6 PROGETTI
     for (let i = 6; i < dataProjects.length; i++) {
 
     // VARIABILE PER SALVARE IL SINGOLO PROGETTO INTERNA AL CICLO
@@ -54,7 +54,7 @@ loadMoreButton.addEventListener("click", function() {
     //CONCATENAZIONE HTML DELLA NUOVA CARD
     cards.innerHTML += card;
     }
-    // NASCONDI IL PULSANTE DOPO AVER CARICATO GLI ULTIMI 3 PROGETTI
+    // NASCONDI IL PULSANTE DOPO AVER CARICATO GLI ULTIMI 6 PROGETTI
     loadMoreButton.style.display = "none";
 });
 
