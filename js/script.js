@@ -40,7 +40,7 @@ for (let i = 0; i < 6; i++){
 
 // AGGIUNGI UN PULSANTE PER CARICARE GLI ULTIMI 6 PROGETTI
 let loadMoreButton = document.createElement("button");
-loadMoreButton.innerHTML = "Carica altri progetti";
+loadMoreButton.innerHTML = "Upload Projects";
 loadMoreButton.classList.add("btn", "btn-success");
 loadMoreButton.addEventListener("click", function() {
 
