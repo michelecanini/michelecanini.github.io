@@ -22,13 +22,10 @@ function createCard(project) {
 const cards = document.getElementById("cards");
 
 // CICLO FOR PER L'ARRAY DEI PRIMI 6 PROGETTI
-for (let i = 0; i < 6; i++){
-
-// CICLO FOR PER L'ARRAY DI TUTTI I PROGETTI
-//for (let i = 0; i < dataProjects.length; i++){
+//for (let i = 0; i < 6; i++){
 
 // CICLO FOR INVERTITO
-//for (let i = dataProjects.length - 1; i >= 0; i--){
+for (let i = dataProjects.length - 1; i >= 6; i--){
 
     // VARIABILE PER SALVARE IL SINGOLO PROGETTO INTERNA AL CICLO
     let project = dataProjects[i];
@@ -45,7 +42,7 @@ loadMoreButton.classList.add("btn", "btn-success");
 loadMoreButton.addEventListener("click", function() {
 
     // CICLO FOR PER GLI ULTIMI 6 PROGETTI
-    for (let i = 6; i < dataProjects.length; i++) {
+    for (let i = 5; i >= 0; i--) {
 
     // VARIABILE PER SALVARE IL SINGOLO PROGETTO INTERNA AL CICLO
     let project = dataProjects[i];
