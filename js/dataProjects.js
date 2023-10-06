@@ -43,10 +43,10 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/htmlcss-shoes/"
     },
     {
-        title: "project 08",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "Founder & CEO",
-        demo: "wayne-barnett-founder-ceo.jpg"
+        title: "Float Cards",
+        thumb: "https://github.com/michelecanini/html-css-float-cards/raw/master/img/float_cards.png",
+        github: "https://github.com/michelecanini/html-css-float-cards",
+        demo: "https://michelecanini.github.io/html-css-float-cards/"
     },
     {
         title: "project 09",
