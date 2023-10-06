@@ -60,34 +60,6 @@ HEADER/NAV SETTING
   display: none;
 }
 
-
-/*
-SEARCH BAR
-
-form{
-  position: relative;
-}
-
-form i{
-  position: absolute;
-  top: 25%;
-  left: 5px;
-}
-
-input{
-  width: 100%;
-}
-
-.p_left{
- padding-left:30px;   
-}
-
-.mr_10{
-  margin-right: 12px;
-}
-
-*/
-
 /*
 TABELLA INDEX
 */
@@ -97,38 +69,23 @@ TABELLA INDEX
 }
 
 /*
-LOADER
-
-.loader {
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid blue;
-    border-right: 16px solid green;
-    border-bottom: 16px solid red;
-    border-left: 16px solid pink;
-    width: 120px;
-    height: 120px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-  }
-  
-  @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-  }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-*/
-
-/*
 MOBILE
 */
 @media screen and (max-width: 580px) {
     .avatar{
         padding: 50px;
     }
+}
+
+/*
+EFFECT
+*/
+.scale_card {
+  transition: transform 2s;
+}
+
+.scale_card:hover {
+  transform: scaleY(1.1) scaleX(1.1);
+    border-radius: 10px;
+    
 }
