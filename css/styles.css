@@ -86,6 +86,6 @@ EFFECT
 
 .scale_card:hover {
   transform: scaleY(1.1) scaleX(1.1);
-    border-radius: 10px;
-    
+    border-radius: 15px;
+    filter: hue-rotate(300deg);
 }
