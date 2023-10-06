@@ -67,10 +67,10 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/htmlcss-dropbox/"
     },
     {
-        title: "project 12",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "Founder & CEO",
-        demo: "wayne-barnett-founder-ceo.jpg"
+        title: "Responsive Wannabe",
+        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
+        github: "https://github.com/michelecanini/html-css-resp-wannabe",
+        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
     },
    
 ]
