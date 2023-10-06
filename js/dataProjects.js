@@ -37,10 +37,10 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/html-css-toboolist/"
     },
     {
-        title: "project 07",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
-        github: "Founder & CEO",
-        demo: "wayne-barnett-founder-ceo.jpg"
+        title: "Shoes",
+        thumb: "https://github.com/michelecanini/htmlcss-shoes/raw/master/img/shoes.png",
+        github: "https://github.com/michelecanini/htmlcss-shoes",
+        demo: "https://michelecanini.github.io/htmlcss-shoes/"
     },
     {
         title: "project 08",
