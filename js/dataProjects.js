@@ -72,6 +72,42 @@ let dataProjects = [
         github: "https://github.com/michelecanini/html-css-resp-wannabe",
         demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
     },
+    {
+        title: "Responsive Wannabe",
+        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
+        github: "https://github.com/michelecanini/html-css-resp-wannabe",
+        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+    },
+    {
+        title: "Responsive Wannabe",
+        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
+        github: "https://github.com/michelecanini/html-css-resp-wannabe",
+        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+    },
+    {
+        title: "Responsive Wannabe",
+        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
+        github: "https://github.com/michelecanini/html-css-resp-wannabe",
+        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+    },
+    {
+        title: "Responsive Wannabe",
+        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
+        github: "https://github.com/michelecanini/html-css-resp-wannabe",
+        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+    },
+    {
+        title: "Responsive Wannabe",
+        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
+        github: "https://github.com/michelecanini/html-css-resp-wannabe",
+        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+    },
+    {
+        title: "Responsive Wannabe",
+        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
+        github: "https://github.com/michelecanini/html-css-resp-wannabe",
+        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+    },
    
 ]
 
