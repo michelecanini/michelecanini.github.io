@@ -6,7 +6,7 @@ import { dataProjects } from './dataProjects.js';
 // FUNZIONE DI CREAZIONE CARD
 function createCard(project) {
     let card = `
-        <div class="card card_style scale_card col-12 col-sm-4 m-3 text-white border border-primary" style="max-width: 24rem; background-color: #2d3748;" >
+        <div class="card card_style scale_card col-12 col-md-4 m-3 text-white border border-primary" style="max-width: 24rem; background-color: #2d3748;" >
             <div class="card-body">
                 <img src="${project.thumb}" class="card-img-top mt-3">
                 <h5 class="card-title mt-3">${project.title}</h5>
