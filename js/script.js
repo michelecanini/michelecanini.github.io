@@ -10,8 +10,8 @@ function createCard(project) {
             <div class="card-body">
                 <img src="${project.thumb}" class="card-img-top mt-3">
                 <h5 class="card-title mt-3">${project.title}</h5>
-                <a href="${project.github}" target="_blank" class="btn btn-primary">GitHub</a>
-                <a href="${project.demo}" target="_blank" class="btn btn-light">Demo</a>
+                <a href="${project.github}" target="_blank" class="btn btn-primary m-1">GitHub</a>
+                <a href="${project.demo}" target="_blank" class="btn btn-light m-1">Demo</a>
             </div>
         </div>
     `;
@@ -51,12 +51,12 @@ let loadMoreButton = createButton("Upload Projects", 6, 11);
 buttonContainer.appendChild(loadMoreButton);
 
 // PULSANTE PER CARICARE GLI ULTIMI 6 PROGETTI
-let loadMoreButton2 = createButton("Upload Projects", 0, 5); // Cambiato il testo del pulsante qui
-loadMoreButton2.style.display = "none"; // Nascondi il secondo pulsante all'inizio
+let loadMoreButton2 = createButton("Upload Projects", 0, 5); 
+loadMoreButton2.style.display = "none"; 
 buttonContainer.appendChild(loadMoreButton2);
 
 loadMoreButton.addEventListener("click", function() {
-    loadMoreButton2.style.display = "inline-block"; // Mostra il secondo pulsante dopo che il primo pulsante è stato cliccato
+    loadMoreButton2.style.display = "inline-block"; 
 });
 
 //STYLE CSS CARDS
