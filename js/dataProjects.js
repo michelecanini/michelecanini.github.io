@@ -79,10 +79,10 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/html-css-spotifyweb/"
     },
     {
-        title: "Responsive Wannabe",
-        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
-        github: "https://github.com/michelecanini/html-css-resp-wannabe",
-        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+        title: "Bootstrap Freelance",
+        thumb: "https://github.com/michelecanini/html-css-bootstrap-freelancer/raw/master/img/bootstrap_freelance.png",
+        github: "https://github.com/michelecanini/html-css-bootstrap-freelancer",
+        demo: "https://michelecanini.github.io/html-css-bootstrap-freelancer/"
     },
     {
         title: "Responsive Wannabe",
