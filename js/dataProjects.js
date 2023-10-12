@@ -85,29 +85,29 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/html-css-bootstrap-freelancer/"
     },
     {
-        title: "Responsive Wannabe",
-        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
-        github: "https://github.com/michelecanini/html-css-resp-wannabe",
-        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+        title: "Bootstrap Dasboard",
+        thumb: "https://github.com/michelecanini/html-css-bootstrap-dashboard/raw/master/img/bootstrap_dasboard.png",
+        github: "https://github.com/michelecanini/html-css-bootstrap-dashboard",
+        demo: "https://michelecanini.github.io/html-css-bootstrap-dashboard/"
     },
-    {
-        title: "Responsive Wannabe",
-        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
-        github: "https://github.com/michelecanini/html-css-resp-wannabe",
-        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
-    },
-    {
-        title: "Responsive Wannabe",
-        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
-        github: "https://github.com/michelecanini/html-css-resp-wannabe",
-        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
-    },
-    {
-        title: "Responsive Wannabe",
-        thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
-        github: "https://github.com/michelecanini/html-css-resp-wannabe",
-        demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
-    },
+    //{
+    //    title: "Responsive Wannabe",
+    //    thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
+    //    github: "https://github.com/michelecanini/html-css-resp-wannabe",
+    //    demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+    //},
+    //{
+    //    title: "Responsive Wannabe",
+    //    thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
+    //    github: "https://github.com/michelecanini/html-css-resp-wannabe",
+    //    demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+    //},
+    //{
+    //    title: "Responsive Wannabe",
+    //    thumb: "https://github.com/michelecanini/html-css-resp-wannabe/raw/master/img/responsive_wannabe.png",
+    //    github: "https://github.com/michelecanini/html-css-resp-wannabe",
+    //    demo: "https://michelecanini.github.io/html-css-resp-wannabe/"
+    //},
    
 ]
 
