@@ -2,7 +2,7 @@
 let dataProjects = [
     {
         title: "Scooter Lim",
-        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge.png",
+        thumb: "https://github.com/michelecanini/scooterlimproject/raw/main/img/CodingChallenge-min.png",
         github: "https://github.com/michelecanini/scooterlimproject",
         demo: "https://michelecanini.github.io/scooterlimproject/"
     },
