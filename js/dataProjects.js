@@ -8,12 +8,6 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/airbnb-blocks/"
     },
     {
-        title: "Toboolist",
-        thumb: "https://github.com/michelecanini/html-css-toboolist/raw/master/img/toboolist.png",
-        github: "https://github.com/michelecanini/html-css-toboolist",
-        demo: "https://michelecanini.github.io/html-css-toboolist/"
-    },
-    {
         title: "Shoes",
         thumb: "https://github.com/michelecanini/htmlcss-shoes/raw/master/img/shoes.png",
         github: "https://github.com/michelecanini/htmlcss-shoes",

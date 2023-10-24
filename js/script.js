@@ -38,7 +38,7 @@ function createButton(text, start, end) {
 const cards = document.getElementById("cards");
 
 // CICLO FOR INVERTITO
-for (let i = dataProjects.length - 1; i >= 7; i--){
+for (let i = dataProjects.length - 1; i >= 6; i--){
     let project = dataProjects[i];
     let card = createCard(project);
     cards.innerHTML += card;
@@ -47,7 +47,7 @@ for (let i = dataProjects.length - 1; i >= 7; i--){
 const buttonContainer = document.getElementById("button-container");
 
 // PULSANTE PER CARICARE LE PROSSIME 6 PROGETTI
-let loadMoreButton = createButton("Upload Projects", 3, 6);
+let loadMoreButton = createButton("Upload Projects", 3, 5);
 buttonContainer.appendChild(loadMoreButton);
 
 // PULSANTE PER CARICARE GLI ULTIMI 6 PROGETTI
