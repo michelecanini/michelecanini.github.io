@@ -2,24 +2,6 @@
 let dataProjects = [
 
     {
-        title: "Airbnb Blocks",
-        thumb: "https://github.com/michelecanini/airbnb-blocks/raw/main/img/airbnb-blocks.png",
-        github: "https://github.com/michelecanini/airbnb-blocks",
-        demo: "https://michelecanini.github.io/airbnb-blocks/"
-    },
-    {
-        title: "Shoes",
-        thumb: "https://github.com/michelecanini/htmlcss-shoes/raw/master/img/shoes.png",
-        github: "https://github.com/michelecanini/htmlcss-shoes",
-        demo: "https://michelecanini.github.io/htmlcss-shoes/"
-    },
-    {
-        title: "Boolando Shop",
-        thumb: "https://github.com/michelecanini/html-css-boolando/raw/master/img/boolando_shop.png",
-        github: "https://github.com/michelecanini/html-css-boolando",
-        demo: "https://michelecanini.github.io/html-css-boolando/"
-    },
-    {
         title: "Discord",
         thumb: "https://github.com/michelecanini/htmlcss-discord/raw/master/img/discord.png",
         github: "https://github.com/michelecanini/htmlcss-discord",
