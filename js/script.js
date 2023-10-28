@@ -19,6 +19,7 @@ function createCard(project) {
 }
 
 // FUNZIONE DEL BOTTONE
+/*
 function createButton(text, start, end) {
     let button = document.createElement("button");
     button.innerHTML = text;
@@ -33,11 +34,21 @@ function createButton(text, start, end) {
     });
     return button;
 }
+*/
+
 
 // CONTENITORE DELLE SCHEDE NEL DOM
 const cards = document.getElementById("cards");
 
 // CICLO FOR INVERTITO
+for (let i = 2; i >= 0; i--){
+    let project = dataProjects[i];
+    let card = createCard(project);
+    cards.innerHTML += card;
+}
+
+
+/*
 for (let i = dataProjects.length - 1; i >= 6; i--){
     let project = dataProjects[i];
     let card = createCard(project);
@@ -58,6 +69,8 @@ buttonContainer.appendChild(loadMoreButton2);
 loadMoreButton.addEventListener("click", function() {
     loadMoreButton2.style.display = "inline-block"; 
 });
+
+*/
 
 //STYLE CSS CARDS
 document.getElementById("cards").style.display = "flex";
