@@ -32,10 +32,10 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/vue-todolist/"
     },
     {
-        title: "Bootstrap Dasboard",
-        thumb: "https://github.com/michelecanini/html-css-bootstrap-dashboard/raw/master/img/bootstrap_dasboard.png",
-        github: "https://github.com/michelecanini/html-css-bootstrap-dashboard",
-        demo: "https://michelecanini.github.io/html-css-bootstrap-dashboard/"
+        title: "Vue Boolzapp",
+        thumb: "https://github.com/michelecanini/vue-boolzapp/raw/main/img/boolzapp.png",
+        github: "https://github.com/michelecanini/vue-boolzapp",
+        demo: "https://michelecanini.github.io/vue-boolzapp/"
     },
    
 ]
