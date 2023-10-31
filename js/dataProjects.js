@@ -26,10 +26,10 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/js-campominato-dom/"
     },
     {
-        title: "Bootstrap Dasboard",
-        thumb: "https://github.com/michelecanini/html-css-bootstrap-dashboard/raw/master/img/bootstrap_dasboard.png",
-        github: "https://github.com/michelecanini/html-css-bootstrap-dashboard",
-        demo: "https://michelecanini.github.io/html-css-bootstrap-dashboard/"
+        title: "Vue Todolist",
+        thumb: "https://github.com/michelecanini/vue-todolist/raw/main/img/vuetodolist.png",
+        github: "https://github.com/michelecanini/vue-todolist",
+        demo: "https://michelecanini.github.io/vue-todolist/"
     },
     {
         title: "Bootstrap Dasboard",
