@@ -19,7 +19,7 @@ function createCard(project) {
 }
 
 // FUNZIONE DEL BOTTONE
-/*
+
 function createButton(text, start, end) {
     let button = document.createElement("button");
     button.innerHTML = text;
@@ -34,22 +34,13 @@ function createButton(text, start, end) {
     });
     return button;
 }
-*/
 
 
 // CONTENITORE DELLE SCHEDE NEL DOM
 const cards = document.getElementById("cards");
 
-// CICLO FOR INVERTITO
-for (let i = 2; i >= 0; i--){
-    let project = dataProjects[i];
-    let card = createCard(project);
-    cards.innerHTML += card;
-}
-
-
-/*
-for (let i = dataProjects.length - 1; i >= 6; i--){
+// CICLO FOR INVERTITO PER I PRIMI 3 PROGETTI
+for (let i = dataProjects.length - 1; i >= dataProjects.length - 3; i--){
     let project = dataProjects[i];
     let card = createCard(project);
     cards.innerHTML += card;
@@ -58,19 +49,17 @@ for (let i = dataProjects.length - 1; i >= 6; i--){
 const buttonContainer = document.getElementById("button-container");
 
 // PULSANTE PER CARICARE LE PROSSIME 6 PROGETTI
-let loadMoreButton = createButton("Upload Projects", 3, 5);
+let loadMoreButton = createButton("Upload Projects", 0, 2);
 buttonContainer.appendChild(loadMoreButton);
 
 // PULSANTE PER CARICARE GLI ULTIMI 6 PROGETTI
-let loadMoreButton2 = createButton("Upload Projects", 0, 2); 
-loadMoreButton2.style.display = "none"; 
-buttonContainer.appendChild(loadMoreButton2);
+//let loadMoreButton2 = createButton("Upload Projects", 0, 2); 
+//loadMoreButton2.style.display = "none"; 
+//buttonContainer.appendChild(loadMoreButton2);
 
 loadMoreButton.addEventListener("click", function() {
     loadMoreButton2.style.display = "inline-block"; 
 });
-
-*/
 
 //STYLE CSS CARDS
 document.getElementById("cards").style.display = "flex";
