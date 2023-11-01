@@ -48,11 +48,11 @@ for (let i = dataProjects.length - 1; i >= dataProjects.length - 3; i--){
 
 const buttonContainer = document.getElementById("button-container");
 
-// PULSANTE PER CARICARE LE PROSSIME 6 PROGETTI
-let loadMoreButton = createButton("Upload Projects", 0, 2);
+// PULSANTE PER CARICARE I PROSSIMI PROGETTI
+let loadMoreButton = createButton("Upload Projects", 0, 3);
 buttonContainer.appendChild(loadMoreButton);
 
-// PULSANTE PER CARICARE GLI ULTIMI 6 PROGETTI
+// PULSANTE PER CARICARE ULTERIORI 3 PROGETTI
 //let loadMoreButton2 = createButton("Upload Projects", 0, 2); 
 //loadMoreButton2.style.display = "none"; 
 //buttonContainer.appendChild(loadMoreButton2);

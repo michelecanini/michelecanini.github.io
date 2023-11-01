@@ -37,6 +37,12 @@ let dataProjects = [
         github: "https://github.com/michelecanini/vue-boolzapp",
         demo: "https://michelecanini.github.io/vue-boolzapp/"
     },
+    {
+        title: "Vite Bootflix",
+        thumb: "https://github.com/michelecanini/vite-boolflix/raw/main/src/assets/images/boolflix.png",
+        github: "https://github.com/michelecanini/vite-boolflix",
+        demo: "https://michelecanini-boolflix.netlify.app/"
+    },
    
 ]
 
