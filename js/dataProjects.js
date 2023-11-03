@@ -32,13 +32,13 @@ let dataProjects = [
         demo: "https://michelecanini.github.io/vue-todolist/"
     },
     {
-        title: "Vue Boolzapp",
+        title: "Boolzapp Web",
         thumb: "https://github.com/michelecanini/vue-boolzapp/raw/main/img/boolzapp.png",
         github: "https://github.com/michelecanini/vue-boolzapp",
         demo: "https://michelecanini.github.io/vue-boolzapp/"
     },
     {
-        title: "Vite Bootflix",
+        title: "Vite Boolflix",
         thumb: "https://github.com/michelecanini/vite-boolflix/raw/main/src/assets/images/boolflix.png",
         github: "https://github.com/michelecanini/vite-boolflix",
         demo: "https://michelecanini-boolflix.netlify.app/"
