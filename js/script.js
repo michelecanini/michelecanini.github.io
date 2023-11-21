@@ -19,7 +19,6 @@ function createCard(project) {
 }
 
 // FUNZIONE DEL BOTTONE
-
 function createButton(text, start, end) {
     let button = document.createElement("button");
     button.innerHTML = text;
@@ -31,6 +30,7 @@ function createButton(text, start, end) {
             cards.innerHTML += card;
         }
         button.style.display = "none";
+        buttonContainer.style.display = "none";
     });
     return button;
 }
@@ -49,7 +49,7 @@ for (let i = dataProjects.length - 1; i >= dataProjects.length - 3; i--){
 const buttonContainer = document.getElementById("button-container");
 
 // PULSANTE PER CARICARE I PROSSIMI PROGETTI
-let loadMoreButton = createButton("Upload Projects", 0, 3);
+let loadMoreButton = createButton("Upload Projects", 0, 4);
 buttonContainer.appendChild(loadMoreButton);
 
 // PULSANTE PER CARICARE ULTERIORI 3 PROGETTI
