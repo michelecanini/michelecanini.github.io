@@ -39,7 +39,7 @@ let dataProjects = [
     },
     {
         title: "Vite Boolflix",
-        thumb: "https://github.com/michelecanini/vite-boolflix/raw/main/src/assets/images/boolflix.png",
+        thumb: "https://github.com/michelecanini/vite-boolflix/raw/main/src/assets/images/boolflix-min.png",
         github: "https://github.com/michelecanini/vite-boolflix",
         demo: "https://michelecanini-boolflix.netlify.app/"
     },
