@@ -3,7 +3,7 @@ let dataProjects = [
 
     {
         title: "Spotify",
-        thumb: "https://github.com/michelecanini/html-css-spotifyweb/raw/master/img/spotify.png",
+        thumb: "https://github.com/michelecanini/html-css-spotifyweb/raw/master/img/spotify-min.png",
         github: "https://github.com/michelecanini/html-css-spotifyweb",
         demo: "https://michelecanini.github.io/html-css-spotifyweb/"
     },
@@ -21,7 +21,7 @@ let dataProjects = [
     },
     {
         title: "Campo Minato",
-        thumb: "https://github.com/michelecanini/js-campominato-dom/raw/master/img/campominato.png",
+        thumb: "https://github.com/michelecanini/js-campominato-dom/raw/master/img/campominato-min.png",
         github: "https://github.com/michelecanini/js-campominato-dom",
         demo: "https://michelecanini.github.io/js-campominato-dom/"
     },
