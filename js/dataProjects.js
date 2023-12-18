@@ -47,7 +47,7 @@ let dataProjects = [
         title: "Laravel Cosmetics",
         thumb: "https://github.com/michelecanini/laravel-retail-cosmetics/raw/main/public/img/laravelcosmetics.png",
         github: "https://github.com/michelecanini/laravel-retail-cosmetics",
-        demo: "https://retailcosmetics.shop"
+        demo: "https://retailcosmetics.eu"
     },
    
 ]
