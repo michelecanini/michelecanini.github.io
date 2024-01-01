@@ -40,9 +40,9 @@ const cards = document.getElementById("cards");
 
 // reversed FOR loop for the first 3 projects
 for (let i = dataProjects.length - 1; i >= dataProjects.length - 3; i--){
-    let project = dataProjects[i];
-    let card = createCard(project);
-    cards.innerHTML += card;
+  let project = dataProjects[i];
+  let card = createCard(project);
+  cards.innerHTML += card;
 }
 
 // button to load projects

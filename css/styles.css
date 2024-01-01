@@ -87,15 +87,15 @@ main{
 
 @media (max-width: 1400px) {
   .title {
-      display: none;
+    display: none;
   }
 }
 
 /* mobile */
 @media screen and (max-width: 580px) {
-    .avatar{
-        padding: 50px;
-    }
+  .avatar{
+    padding: 50px;
+  }
 }
 
 /* effect */
