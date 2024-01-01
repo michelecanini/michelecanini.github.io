@@ -4,14 +4,16 @@ import { dataProjects } from './dataProjects.js';
 // card creation function
 function createCard(project) {
   let card = `
-    <div class="card card_style scale_card col-12 col-md-4 m-3">
-      <div class="card-body test">
+  <div class="col-12 col-md-6 col-lg-4">
+    <div class="card scale_card">
+      <div class="card-body">
         <h5 class="card-title text-white mt-3">${project.title}</h5>
         <img src="${project.thumb}" class="card-img-top mt-1">
         <a href="${project.github}" target="_blank" class="btn btn-primary m-1 mt-3">GitHub</a>
         <a href="${project.demo}" target="_blank" class="btn btn-light m-1 mt-3">Demo</a>
       </div>
     </div>
+  </div>
   `;
   return card;
 }

@@ -40,6 +40,7 @@ main{
   width: 100%;
 }
 
+/* logo */
 .logo {
   height: 35px;
 }
@@ -60,10 +61,11 @@ main{
   margin-top: 90px;
 }
 
+/* card */
 .card {
   background-color: #2d3748;
   border: 1px solid #0d6efd;
-  max-width: 24rem;
+  margin: 1rem;
 }
 
 .card:hover {
@@ -74,6 +76,19 @@ main{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+/* title */
+.title{
+  font-size: 2.95rem;
+  display: block;
+  margin-bottom: 45px;
+}
+
+@media (max-width: 1400px) {
+  .title {
+      display: none;
+  }
 }
 
 /* mobile */
