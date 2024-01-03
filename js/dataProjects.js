@@ -50,4 +50,5 @@ let dataProjects = [
   },
 ]
 
+// export of the array
 export { dataProjects };
