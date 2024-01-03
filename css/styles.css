@@ -46,6 +46,10 @@ main{
   border-radius: 20px;
 }
 
+.box-body{
+  border-radius: 20px;
+}
+
 /* card */
 .card {
   background-color: #2d3748;
