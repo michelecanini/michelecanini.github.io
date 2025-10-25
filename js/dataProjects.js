@@ -53,7 +53,6 @@ let dataProjects = [
     thumb:
       "https://github.com/michelecanini/vite-boolflix/raw/main/src/assets/images/boolflix.png",
     github: "https://github.com/michelecanini/vite-boolflix",
-    demo: "https://michelecanini-boolflix.netlify.app/",
     hasDemo: false,
   },
   {
