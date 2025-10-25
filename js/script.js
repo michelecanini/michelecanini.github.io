@@ -11,6 +11,12 @@ window.addEventListener("load", () => {
 
 // card creation function
 function createCard(project) {
+  // Create the Demo button only if hasDemo is true`
+  const demoButton =
+    project.hasDemo !== false
+      ? `<a href="${project.demo}" target="_blank" class="btn btn-light m-1 mt-3">Demo</a>`
+      : "";
+
   let card = `
   <div class="col-12 col-md-6 col-lg-4">
     <div class="card scale_card">
@@ -18,7 +24,7 @@ function createCard(project) {
         <h5 class="card-title text-white mt-3">${project.title}</h5>
         <img src="${project.thumb}" class="card-img-top mt-1" alt="${project.title}">
         <a href="${project.github}" target="_blank" class="btn btn-primary m-1 mt-3">GitHub</a>
-        <a href="${project.demo}" target="_blank" class="btn btn-light m-1 mt-3">Demo</a>
+        ${demoButton}
       </div>
     </div>
   </div>

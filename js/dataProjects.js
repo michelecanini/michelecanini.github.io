@@ -6,6 +6,7 @@ let dataProjects = [
       "https://github.com/michelecanini/html-css-spotifyweb/raw/master/img/spotify-min.png",
     github: "https://github.com/michelecanini/html-css-spotifyweb",
     demo: "https://michelecanini.github.io/html-css-spotifyweb/",
+    hasDemo: true,
   },
   {
     title: "Bootstrap Freelance",
@@ -13,6 +14,7 @@ let dataProjects = [
       "https://github.com/michelecanini/html-css-bootstrap-freelancer/raw/master/img/bootstrap_freelance.png",
     github: "https://github.com/michelecanini/html-css-bootstrap-freelancer",
     demo: "https://michelecanini.github.io/html-css-bootstrap-freelancer/",
+    hasDemo: true,
   },
   {
     title: "Bootstrap Dasboard",
@@ -20,6 +22,7 @@ let dataProjects = [
       "https://github.com/michelecanini/html-css-bootstrap-dashboard/raw/master/img/bootstrap_dasboard.png",
     github: "https://github.com/michelecanini/html-css-bootstrap-dashboard",
     demo: "https://michelecanini.github.io/html-css-bootstrap-dashboard/",
+    hasDemo: true,
   },
   {
     title: "Campo Minato",
@@ -27,6 +30,7 @@ let dataProjects = [
       "https://github.com/michelecanini/js-campominato-dom/raw/master/img/campominato-min.png",
     github: "https://github.com/michelecanini/js-campominato-dom",
     demo: "https://michelecanini.github.io/js-campominato-dom/",
+    hasDemo: true,
   },
   {
     title: "Vue Todolist",
@@ -34,6 +38,7 @@ let dataProjects = [
       "https://github.com/michelecanini/vue-todolist/raw/main/img/vuetodolist.png",
     github: "https://github.com/michelecanini/vue-todolist",
     demo: "https://michelecanini.github.io/vue-todolist/",
+    hasDemo: true,
   },
   {
     title: "Boolzapp Web",
@@ -41,6 +46,7 @@ let dataProjects = [
       "https://github.com/michelecanini/vue-boolzapp/raw/main/img/boolzapp.png",
     github: "https://github.com/michelecanini/vue-boolzapp",
     demo: "https://michelecanini.github.io/vue-boolzapp/",
+    hasDemo: true,
   },
   {
     title: "Vite Boolflix",
@@ -48,6 +54,7 @@ let dataProjects = [
       "https://github.com/michelecanini/vite-boolflix/raw/main/src/assets/images/boolflix.png",
     github: "https://github.com/michelecanini/vite-boolflix",
     demo: "https://michelecanini-boolflix.netlify.app/",
+    hasDemo: false,
   },
   {
     title: "Laravel Cosmetics",
@@ -55,6 +62,7 @@ let dataProjects = [
       "https://github.com/michelecanini/laravel-retail-cosmetics/raw/main/public/img/laravelcosmetics.png",
     github: "https://github.com/michelecanini/laravel-retail-cosmetics",
     demo: "https://retailcosmetics.eu",
+    hasDemo: true,
   },
 ];
 
