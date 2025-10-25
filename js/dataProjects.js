@@ -60,8 +60,7 @@ let dataProjects = [
     thumb:
       "https://github.com/michelecanini/laravel-retail-cosmetics/raw/main/public/img/laravelcosmetics.png",
     github: "https://github.com/michelecanini/laravel-retail-cosmetics",
-    demo: "https://retailcosmetics.eu",
-    hasDemo: true,
+    hasDemo: false,
   },
 ];
 
