@@ -29,3 +29,50 @@ This repository contains the source code for my personal website showcasing my p
 - **CSS3** - Modern styling and animations
 - **JavaScript** - Interactive functionality
 - **GitHub Pages** - Hosting and deployment
+
+## 📁 Project Structure
+
+```
+project-root/
+├── index.html          ← main entry point (static + JS modules)
+├── css/                ← stylesheets
+├── js/                 ← vanilla JS logic modules
+├── img/                ← images & assets
+└── README.md           ← this file
+```
+
+## 🚀 Local Development
+
+To run this project locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/michelecanini/michelecanini.github.io.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd michelecanini.github.io
+```
+
+3. Open index.html in your browser or use a local server:
+
+```
+# Using Python 3
+python -m http.server 8000
+
+# Or using Node.js
+npx http-server
+```
+
+Note: Manual browser refresh required after changes
+
+For development with auto-reload:
+
+- Use VS Code with Live Server extension
+
+- Or setup a development server with auto-reload capabilities
+
+4. Open your browser to the displayed localhost address.
