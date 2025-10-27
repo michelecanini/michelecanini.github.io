@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
 
 // card creation function
 function createCard(project) {
-  // Create the Demo button only if hasDemo is true`
+  // create the Demo button only if hasDemo is true
   const demoButton =
     project.hasDemo !== false
       ? `<a href="${project.demo}" target="_blank" class="btn btn-light m-1 mt-3">Demo</a>`

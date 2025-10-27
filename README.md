@@ -4,6 +4,7 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
 
 Personal website and portfolio hosted on GitHub Pages.
 
@@ -17,7 +18,7 @@ This repository contains the source code for my personal website showcasing my p
 
 ## 🚀 Features
 
-- **Responsive Design** - Optimized for all devices
+- **Responsive Design Bootstrap** - Optimized for all devices
 - **Modern UI/UX** - Clean and professional interface
 - **Project Showcase** - Display of featured work
 - **Contact Information** - Easy ways to get in touch
@@ -28,6 +29,7 @@ This repository contains the source code for my personal website showcasing my p
 - **HTML5** - Semantic markup
 - **CSS3** - Modern styling and animations
 - **JavaScript** - Interactive functionality
+- **Bootstrap** - Responsive framework and UI components
 - **GitHub Pages** - Hosting and deployment
 
 ## 📁 Project Structure
@@ -76,3 +78,13 @@ For development with auto-reload:
 - Or setup a development server with auto-reload capabilities
 
 4. Open your browser to the displayed localhost address.
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## 📫 Contact
+
+GitHub: @michelecanini
+
+Website: michelecanini.github.io
