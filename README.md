@@ -16,7 +16,7 @@ Visit the website: [https://michelecanini.github.io](https://michelecanini.githu
 
 This repository contains the source code for my personal website showcasing my projects, skills, and professional experience. The site serves as my digital portfolio and online presence.
 
-## 🚀 Features
+## ✨ Features
 
 - **Responsive Design Bootstrap** - Optimized for all devices
 - **Modern UI/UX** - Clean and professional interface
@@ -85,6 +85,5 @@ This project is open source and available under the MIT License.
 
 ## 📫 Contact
 
-GitHub: @michelecanini
-
-Website: michelecanini.github.io
+- **GitHub**: [@michelecanini](https://github.com/michelecanini)
+- **Email**: [michele.canini@email.com](mailto:michele.canini@email.com)
