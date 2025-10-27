@@ -86,4 +86,4 @@ This project is open source and available under the MIT License.
 ## 📫 Contact
 
 - **GitHub**: [@michelecanini](https://github.com/michelecanini)
-- **Email**: [michele.canini@email.com](mailto:michele.canini@email.com)
+- **Email**: [michelecanini.dev@email.com](mailto:michelecanini.dev@email.com)
