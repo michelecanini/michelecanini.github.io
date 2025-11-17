@@ -62,6 +62,12 @@ let dataProjects = [
     github: "https://github.com/michelecanini/laravel-retail-cosmetics",
     hasDemo: false,
   },
+  {
+    title: "Portfolio",
+    thumb: "img/portfolio.png",
+    github: "https://github.com/michelecanini/michelecanini.github.io",
+    hasDemo: false,
+  },
 ];
 
 // export of the array
