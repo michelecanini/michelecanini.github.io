@@ -6,6 +6,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
 
+[![Portfolio](img/portfolio.png)](img/portfolio.png)
+
 Personal website and portfolio hosted on GitHub Pages.
 
 ## 🌐 Live
